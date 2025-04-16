@@ -1,0 +1,29 @@
+body {
+    Font-family: comic;
+    Max-width: 900px;
+    Margin: 20px;
+    Padding: 20px;
+    Background-color: #9f73b6;
+    }
+h1{
+    Color: coral;
+    Text-align: Center;
+    }
+Img{
+    Max-width: 100%;
+    Height: auto;
+    Display: block;
+    Margin: 20px auto;
+    Border-radius: 8px;
+    }
+a {
+    Color: #000000;
+    Text-decoration: none;
+    }
+a:hover {
+    Text-decoration: underline;
+    }
+p {
+    Line-height: 1.6;
+    Color: rgb(230, 230, 230);
+    }
