@@ -4,56 +4,44 @@
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jakes Development Page</title>
-    <style>
-      body {
-          Font-family: comic;
-          Max-width: 900px;
-          Margin: 20px;
-          Padding: 20px;
-          Background-color: #9f73b6;
-          }
-      h1{
-          Color: coral;
-          Text-align: Center;
-          }
-      Img{
-          Max-width: 100%;
-          Height: auto;
-          Display: block;
-          Margin: 20px auto;
-          Border-radius: 8px;
-          }
-      a {
-          Color: #000000;
-          Text-decoration: none;
-          }
-      a:hover {
-          Text-decoration: underline;
-          }
-      p {
-          Line-height: 1.6;
-          Color: rgb(230, 230, 230);
-          }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel=“stylesheet”>
   </head>
   <body>
-    <!-- Heading for home page-->
-    <h1> Into the depths of my development </h1>
-    <img src="cave2.jpeg" alt=“Picture of Cox’s cave at Cheddar gorge”>
-    <!-- Heading for section 2-->
-    <h2> A little bit about this page </h2>
-    <p> Welcome! This page is my space where I shall be delving into web development and practising HTML, CSS and JavaScript once Im competent enough.
-- Jake Wanless
-</p>
-   <!--Heading for section 3-->
-   <h2> Some websites I like to frequent </h2>
-    <ul>
-        <li>
-     <a href=“https://www.discogs.co.uk” target=“_blank”> Discogs </a></li>
-        <li>
-     <a href=“https://www.itonlinelearning-academy.com”> IT online learning </a></li>
-    </ul>
+  <!-- Navigation Section -->
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="section2">
+      <!-- Section 2 Header and image -->
+      <h1> Into the depths of my development </h1>
+      <img src="cave2.jpeg" alt=“Picture of Coxs cave at Cheddar gorge”>
+    </div>
+    <div id="section3">
+    <!-- Section 3 Paragraph and text over image -->
+      <h2> A little bit about this page </h2>
+      <p> 
+        Welcome! This page is my space where I shall be delving into web development and practising HTML, CSS and JavaScript once I'm competent enough.<br> - Jake Wanless
+      </p>
+      
+        
+    </div>
+    <!-- Section 4 Hyperlinks under image -->
+    <div id="section4">
+     <h2> Some websites I like to frequent </h2>
+      <ul>
+          <li>
+       <a href=“https://www.discogs.co.uk” target=“_blank”> Discogs </a></li>
+          <li>
+       <a href=“https://www.itonlinelearning-academy.com”> IT online learning </a></li>
+      </ul>
+    </div>
     
   </body>
 </html>
