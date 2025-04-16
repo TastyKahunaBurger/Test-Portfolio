@@ -1,29 +1,96 @@
 body {
-    Font-family: comic;
-    Max-width: 900px;
-    Margin: 20px;
-    Padding: 20px;
-    Background-color: #9f73b6;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(105, 66, 126);
     }
 h1{
-    Color: coral;
-    Text-align: Center;
+    color: rgb(211, 119, 85);
+    text-align: left;
+    }
+h2{
+    color: rgb(211, 119, 85);
+    text-align: left;
     }
 Img{
-    Max-width: 100%;
-    Height: auto;
-    Display: block;
-    Margin: 20px auto;
-    Border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
     }
 a {
-    Color: #000000;
-    Text-decoration: none;
+    color: rgb(211, 119, 85);
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    
     }
 a:hover {
-    Text-decoration: underline;
+    color: black;
+    border-bottom: 2px solid rgb(211, 119, 85);
     }
+ul {
+    list-style: none;
+    }
+li {
+    display: inline;
+    }
+
 p {
-    Line-height: 1.6;
-    Color: rgb(230, 230, 230);
+    padding: 10px;
+    line-height: 1.6;
+    color: rgb(211, 119, 85);
+    }
+/* Title and picture section of home page*/        
+#section2 {
+    padding: 20px;
+    margin-left: 10px;
+    }
+/* Smaller title and text section of home page*/
+#section3 {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 90%;
+    }
+/* Hyperlink section of home page*/
+#section4 {
+    border: 20px  grey;
+    padding: 20px;
+    }
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1000;
+    background-color: rgb(105, 66, 126);
+    box-shadow: 0 2px 5px;
+    }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+nav a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: rgb(211, 119, 85);
+    text-decoration: none;
+    transition: color 0.3s, padding 0.3s; 
+    padding-bottom: 5px;
+    position: relative;
+    }
+nav a:hover {
+    color: black;
+    padding-bottom: 5px;
     }
